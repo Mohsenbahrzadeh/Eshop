@@ -15,6 +15,6 @@
   </ItemGroup>
 
 <ItemGroup>
-  <PackageReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" Version="1.0.0" />
+  <projectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" Version="1.0.0" />
 </ItemGroup>
 </Project>
