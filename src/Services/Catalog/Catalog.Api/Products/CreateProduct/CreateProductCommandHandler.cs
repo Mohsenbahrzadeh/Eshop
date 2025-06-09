@@ -11,6 +11,7 @@ public record CreateProductCommand(string Name,
 public record CreateProductResult(Guid Id);
 
 
+
 public class CreateProductCommandHandler : ICommandHandler<CreateProductCommand, CreateProductResult>
 {
     public Task<CreateProductResult> Handle(CreateProductCommand request, CancellationToken cancellationToken)
