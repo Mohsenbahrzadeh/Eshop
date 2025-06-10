@@ -30,7 +30,7 @@ public class CreateProductCommandHandler : ICommandHandler<CreateProductCommand,
             Price = command.Price
         };
 
-
+           await  Task.Delay(1000, cancellationToken); // Simulate async database operation
         return new CreateProductResult(Guid.NewGuid());
        
     }
